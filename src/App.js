@@ -7,7 +7,7 @@ import html2canvas from "html2canvas";
 
 export default function App() {
   const printRef = React.useRef();
-  const [quoteText, setQuoteText] = useState("Yank the compass bitch!");
+  const [quoteText, setQuoteText] = useState("Yank the compass!");
 
   function handleQuote() {
     fetch("https://api.kanye.rest")
